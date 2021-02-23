@@ -64,6 +64,7 @@ datagen_valid = datagen.flow_from_dataframe (
     seed=7,
 )
 
+
 def build_model(num_classes):
     base_model = ResNet50(weights='imagenet', include_top=False)
 
@@ -96,7 +97,7 @@ history = net.fit_generator(
 model_json = net.to_json()
 with open("model.json", "w") as json_file:
     json_file.write(model_json)
-    
+
 # serialize weights to HDF5
 net.save_weights("model.h5")
 print("Saved model to disk")
