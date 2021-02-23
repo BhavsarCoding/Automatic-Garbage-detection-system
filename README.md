@@ -1,4 +1,6 @@
 # Automatic-Garbage-detection-system
+<hr>
+
 Following are details of our  progress regarding the SSIP Project (Garbage Detection).
 
 The dataset that we used to test our models was the TACO datset.
