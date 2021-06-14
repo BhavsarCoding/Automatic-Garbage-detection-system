@@ -1,5 +1,4 @@
 # Automatic-Garbage-detection-system
-<hr>
 
 Following are details of our  progress regarding the SSIP Project (Garbage Detection).
 
